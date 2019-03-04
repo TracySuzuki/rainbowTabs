@@ -32,7 +32,9 @@
                         <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" id="HlO-ct-8kK"/>
+                    <navigationItem key="navigationItem" title="Red" id="HlO-ct-8kK">
+                        <barButtonItem key="backBarButtonItem" title="Back to Red" id="IWt-xO-BBI"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -57,7 +59,7 @@
             </objects>
             <point key="canvasLocation" x="-1090" y="1238"/>
         </scene>
-        <!--Yellow View Controller-->
+        <!--Yellow-->
         <scene sceneID="DjK-gW-c1C">
             <objects>
                 <viewController id="e7v-9b-Nal" customClass="YellowViewController" customModule="rainbowTabs" customModuleProvider="target" sceneMemberID="viewController">
@@ -77,7 +79,9 @@
                         <color key="backgroundColor" red="0.99953407049999998" green="0.98835557699999999" blue="0.47265523669999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="PTV-PR-Nbt"/>
                     </view>
-                    <navigationItem key="navigationItem" id="4Hp-Ot-TcK"/>
+                    <navigationItem key="navigationItem" title="Yellow" id="4Hp-Ot-TcK">
+                        <barButtonItem key="backBarButtonItem" title="Back to Yellow" id="H8F-bL-tOu"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WvM-kb-3SA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -94,12 +98,13 @@
                         <viewLayoutGuide key="safeArea" id="66u-Ys-yZw"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Green" image="G" selectedImage="G Selected" id="nGO-8I-foA"/>
+                    <navigationItem key="navigationItem" title="Green" id="2Go-Z6-aVu"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1Bw-yX-yia" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="361" y="1237"/>
         </scene>
-        <!--Blue View Controller-->
+        <!--Blue-->
         <scene sceneID="rPA-3x-Vt9">
             <objects>
                 <viewController id="d5i-9Y-rch" customClass="BlueViewController" customModule="rainbowTabs" customModuleProvider="target" sceneMemberID="viewController">
@@ -121,7 +126,9 @@
                         <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="IXn-ks-xOB"/>
                     </view>
-                    <navigationItem key="navigationItem" id="4lq-qw-LCg"/>
+                    <navigationItem key="navigationItem" title="Blue" id="4lq-qw-LCg">
+                        <barButtonItem key="backBarButtonItem" title="Back to Blue" id="ng7-vg-klH"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pXA-Xa-5CI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -138,6 +145,7 @@
                         <viewLayoutGuide key="safeArea" id="45n-Rl-LGj"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Purple" id="qRK-vp-kEa"/>
+                    <navigationItem key="navigationItem" title="Purple" id="OzV-pE-y0e"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SOc-mA-aYv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
