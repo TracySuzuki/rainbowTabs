@@ -13,8 +13,13 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        tabBarItem.badgeValue = nil
+        
+    }
+//override var tabBarItem: UITabBarItem!
+//    override func setToolbarItems(_ toolbarItems: [UIBarButtonItem]?, animated: Bool) {
+//        tabBarItem.badgeValue = nil
     }
 
-
-}
+//}
 
